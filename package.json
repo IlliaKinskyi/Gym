@@ -1,11 +1,12 @@
 {
-  "homepage": "https://illiakinskyi.github.io/gym",
+  "homepage": "https://illiakinskyi.github.io/Gym",
   "name": "gym-typescript",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "deploy": "npm run build",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
